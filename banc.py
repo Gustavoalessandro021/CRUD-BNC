@@ -7,8 +7,8 @@ cursor = banco_alunos.cursor()
 
 # cursor.execute("CREATE TABLE alunos(id INTEGER PRIMARY KEY AUTOINCREMENT, nome text, idade integer,email text )")
 # cursor.execute("INSERT INTO alunos(nome,idade,email)VALUES(1, 'andre',17,'andrepedro@gmail.com')") 
-# cursor.execute("INSERT INTO alunos(nome,idade,email)VALUES(2, 'Arthur',35,'arthurfreitas@gmail.com')") 
-# cursor.execute("INSERT INTO alunos(nome,idade,email)VALUES(3, 'Gustavo',20,'gustavosilva@gmail.com')") 
+# cursor.execute("INSERT INTO alunos(nome,idade,email)VALUES(2, 'Arthur',35,'arthurfelipe@gmail.com')") 
+# cursor.execute("INSERT INTO alunos(nome,idade,email)VALUES(3, 'Gustavo',20,'gustavosalessandro@gmail.com')") 
 
 
 # cursor.execute("SELECT * FROM alunos")
@@ -16,12 +16,13 @@ cursor = banco_alunos.cursor()
 
 # cursor.execute("SELECT * FROM alunos WHERE id = 2")
 # print(cursor.fetchall())
-# cursor.execute("UPDATE alunos SET nome = 'feliz' WHERE id = 1 ")
+# cursor.execute("UPDATE alunos SET nome = 'felipe' WHERE id = 1 ")
 # print(cursor.fetchall())
 
 # cursor.execute("DELETE FROM alunos WHERE id = 1 ")
 
 banco_alunos.commit()
+
 
 
 
